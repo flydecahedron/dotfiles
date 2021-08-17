@@ -16,3 +16,9 @@ set ruler                      " Shows the current line number at the bottom-rig
                                " of the screen.
 set wildmenu                   " Great command-line completion, use `<Tab>` to move
                                " around and `<CR>` to validate.
+set number			" Setting both number and relativenumber enables hybrid mode
+set relativenumber		" 
+"set lcs+=space:·		" makes spaces show as dots if set list. but 
+"set list			"set list makes tabs appear as ^I
+set cursorcolumn		" highlights vertically to curor
+set cursorline			" highlights horizontally to curor
